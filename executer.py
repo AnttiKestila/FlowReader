@@ -81,7 +81,7 @@ md = 25
 N = 1
 calibration = 0.0
 calibrationPA = calibration
-swtch = False
+swtch = True
 
 data1 = Reader(data1, dataC)
 p1c1, p2c1, massflow11, massflow21, m1cc1 = data1.plotter(initialpressure, thrt, x_mf, y_data_mf, currenttemp, calibration)
