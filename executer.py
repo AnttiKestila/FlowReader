@@ -26,16 +26,6 @@ dataPA200 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi0ABSPnewnew-2_041
 dataPA1000 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi0ABSPnewnew-3_041016.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 dataPA2000 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi2000PAnew-4_230916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 
-data = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi0ABSPnewnewnew-6_051016.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
-data200 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi200ABSP-4_210916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
-data1000 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi1000ABSPnew-4_220916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
-data2000 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi2000ABSP-4_190916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
-
-dataPA = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi0PA-1_070916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
-dataPA200 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi200PA-1_080916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
-dataPA1000 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi1000PA-1_080916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
-dataPA2000 = loadtxt("C:/Users/Antti/Downloads/yunBackup/venturi2000PAnew-4_230916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
-
 data1 = loadtxt("/home/antti/Downloads/yunBackup/venturi0ABSPnewnewnew-1_051016.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 data2 = loadtxt("/home/antti/Downloads/yunBackup/venturi0ABSPnewnewnew-2_051016.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 data3 = loadtxt("/home/antti/Downloads/yunBackup/venturi0ABSPnewnewnew-3_051016.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
@@ -50,8 +40,6 @@ data4 = loadtxt("/home/antti/Downloads/yunBackup/venturi1000ABSPnew-4_220916.txt
 data5 = loadtxt("/home/antti/Downloads/yunBackup/venturi1000ABSPnew-3_220916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 data6 = loadtxt("/home/antti/Downloads/yunBackup/venturi1000ABSPnew-4_220916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 
-"""
-
 data1 = loadtxt("/home/antti/Downloads/yunBackup/venturi2000ABSPlus-1_070916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 data2 = loadtxt("/home/antti/Downloads/yunBackup/venturi2000ABSP-2_140916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 data3 = loadtxt("/home/antti/Downloads/yunBackup/venturi2000ABSP-1_190916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
@@ -65,6 +53,18 @@ dataPA3 = loadtxt("/home/antti/Downloads/yunBackup/venturi200ABSP-1_150916.txt",
 dataPA4 = loadtxt("/home/antti/Downloads/yunBackup/venturi200ABSP-2_150916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 dataPA5 = loadtxt("/home/antti/Downloads/yunBackup/venturi200ABSP-3_210916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 dataPA6 = loadtxt("/home/antti/Downloads/yunBackup/venturi200ABSP-4_210916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
+
+"""
+
+data1 = loadtxt("/home/antti/Downloads/yunBackup/venturi0ABSPnewnewnew-6_051016.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
+data2 = loadtxt("/home/antti/Downloads/yunBackup/venturi200ABSP-4_210916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
+data3 = loadtxt("/home/antti/Downloads/yunBackup/venturi1000ABSPnew-4_220916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
+data4 = loadtxt("/home/antti/Downloads/yunBackup/venturi2000ABSP-4_190916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
+
+dataPA1 = loadtxt("/home/antti/Downloads/yunBackup/venturi0PA-1_070916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
+dataPA2 = loadtxt("/home/antti/Downloads/yunBackup/venturi200PA-1_080916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
+dataPA3 = loadtxt("/home/antti/Downloads/yunBackup/venturi1000PA-1_080916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
+dataPA4 = loadtxt("/home/antti/Downloads/yunBackup/venturi2000PAnew-4_230916.txt", delimiter=',', usecols={2, 3, 4, 5, 8, 12, 13, 16})
 
 dataC = loadtxt("/home/antti/Downloads/yunBackup/hydacCalibration_020316-minP6.5e-3mbar.txt", delimiter=',', usecols={2, 3})
 
@@ -81,7 +81,7 @@ md = 25
 N = 1
 calibration = 0.0
 calibrationPA = calibration
-swtch = True
+swtch = False
 
 data1 = Reader(data1, dataC)
 p1c1, p2c1, massflow11, massflow21, m1cc1 = data1.plotter(initialpressure, thrt, x_mf, y_data_mf, currenttemp, calibration)
@@ -115,7 +115,7 @@ if swtch:
 
 cut = 2300
 
-"""
+
 # Finding peaks for the actual flows
 arrmf1, index1 = Reader.peaking(massflow11[cut:6000], thres, md)
 arrmf2, index2 = Reader.peaking(massflow12[cut:6000], thres, md)
@@ -134,7 +134,7 @@ arrmf10, index10 = Reader.peaking(massflow110[cut:5000], thres, md)
 if swtch:
     arrmf11, index11 = Reader.peaking(massflow111[cut:5000], thres, md)
     arrmf12, index12 = Reader.peaking(massflow112[cut:5000], thres, md)
-"""
+
 
 # Finding peaks for the flow differences
 arrmf12, index12 = Reader.peaking(m1cc1[cut:6000] - massflow11[cut:6000], 0.15, 15) # md 10
@@ -155,10 +155,11 @@ if swtch:
     arrmf112, index112 = Reader.peaking(m1cc11[cut:5900] - massflow111[cut:5900], 0.5, 15) # the last vector values is 5800
     arrmf122, index122 = Reader.peaking(m1cc12[cut:7000] - massflow112[cut:7000], 0.5, 15) # the last vector values is 5800
 
-x1 = 1#3850
-x2 = 7000#4150
-
-print(average(arrmf12[index12]), average(arrmf22[index22]), average(arrmf32[index32]), average(arrmf42[index42]), average(arrmf52[index52]), average(arrmf62[index62]), average(arrmf72[index72]), average(arrmf82[index82]), average(arrmf92[index92]), average(arrmf102[index102]), average(arrmf112[index112]), average(arrmf122[index122]))
+x1 = 3850
+x2 = 4150
+y1 = -0.5
+y2 = 1.0
+#print(average(arrmf12[index12]), average(arrmf22[index22]), average(arrmf32[index32]), average(arrmf42[index42]), average(arrmf52[index52]), average(arrmf62[index62]), average(arrmf72[index72]), average(arrmf82[index82]), average(arrmf92[index92]), average(arrmf102[index102]), average(arrmf112[index112]), average(arrmf122[index122]))
 
 # Plotting everything
 
@@ -167,54 +168,58 @@ with plt.style.context('seaborn-whitegrid'):
     fig1 = plt.figure()
 
     ax = plt.subplot(2, 1, 1)
-    plt.ylim((-0.5, 1.5))
+    plt.ylim((y1, y2))
     plt.xlim((x1, x2))
     plt.title(r'ABS Plus -$\Delta$mg/s')
+    plt.ylabel('$\Delta$mg/s')
+    plt.xlabel('Time units')
 
     plt.plot(m1cc1 - massflow11, 'b', label="Uncoated")
-    #plt.plot(m1cc2 - massflow12, 'g', label="20nm")
-    #plt.plot(m1cc3 - massflow13, 'r', label="100nm")
-    #plt.plot(m1cc4 - massflow14, 'c', label="200nm")
+    plt.plot(m1cc2 - massflow12, 'g', label="20nm")
+    plt.plot(m1cc3 - massflow13, 'r', label="100nm")
+    plt.plot(m1cc4 - massflow14, 'c', label="200nm")
 
     #if swtch:
     #    plt.plot(m1cc5 - massflow15, 'y', label="rep.")
     #    plt.plot(m1cc6 - massflow16, 'k', label="rep.")
 
     plt.plot(index12 + cut, arrmf12[index12], 'r+')
-    #plt.plot(index22 + cut, arrmf22[index22], 'r+')
-    #plt.plot(index32 + cut, arrmf32[index32], 'b+')
-    #plt.plot(index42 + cut, arrmf42[index42], 'r+')
+    plt.plot(index22 + cut, arrmf22[index22], 'r+')
+    plt.plot(index32 + cut, arrmf32[index32], 'b+')
+    plt.plot(index42 + cut, arrmf42[index42], 'r+')
 
     #if swtch:
     #   plt.plot(index52 + cut, arrmf52[index52], 'r+')
     #    plt.plot(index62 + cut, arrmf62[index62], 'r+')
 
-    plt.legend(loc="upper left", shadow=True, title="ABS Plus", frameon=True, bbox_to_anchor=[1.0, 1.0])
+    plt.legend(loc="upper left", shadow=True, title="ABS Plus", frameon=True, bbox_to_anchor=[0.995, 1.0])
 
     ax = plt.subplot(2, 1, 2)
 
     plt.title('PA 2200 -$\Delta$mg/s')
-    plt.ylim((-0.5, 1.5))
+    plt.ylabel('$\Delta$mg/s')
+    plt.xlabel('Time units')
+    plt.ylim((y1, y2))
     plt.xlim((x1, x2))
     plt.plot(m1cc7 - massflow17, 'b', label="Uncoated")
-    #plt.plot(m1cc8 - massflow18, 'g', label="20nm")
-    #plt.plot(m1cc9 - massflow19, 'r', label="100nm")
-    #plt.plot(m1cc10 - massflow110, 'c', label="200nm")
+    plt.plot(m1cc8 - massflow18, 'g', label="20nm")
+    plt.plot(m1cc9 - massflow19, 'r', label="100nm")
+    plt.plot(m1cc10 - massflow110, 'c', label="200nm")
 
  #   if swtch:
     #    plt.plot(m1cc11 - massflow111, 'y', label="rep.")
     #    plt.plot(m1cc12 - massflow112, 'k', label="rep.")
 
     plt.plot(index72 + cut, arrmf72[index72], 'r+')
-    #plt.plot(index82 + cut, arrmf82[index82], 'r+')
-    #plt.plot(index92 + cut, arrmf92[index92], 'b+')
-    #plt.plot(index102 + cut, arrmf102[index102], 'r+')
+    plt.plot(index82 + cut, arrmf82[index82], 'r+')
+    plt.plot(index92 + cut, arrmf92[index92], 'b+')
+    plt.plot(index102 + cut, arrmf102[index102], 'r+')
 
 #    if swtch:
     #    plt.plot(index112 + cut, arrmf112[index112], 'r+')
     #    plt.plot(index122 + cut, arrmf122[index122], 'r+')
 
-    plt.legend(loc="upper left", shadow=True, title="PA 2200", frameon=True, bbox_to_anchor=[1.0, 1.0])
+    plt.legend(loc="upper left", shadow=True, title="PA 2200", frameon=True, bbox_to_anchor=[0.995, 1.0])
     plt.xlabel('time units')
 
 """
@@ -222,7 +227,8 @@ with plt.style.context('seaborn-whitegrid'):
 fig2 = plt.figure()
 
 ax2 = plt.subplot(2, 1, 1)
-plt.plot(Reader.sum_range(massflow11, N), 'b')
+plt.plot(p1c2, 'b')
+
 plt.plot(Reader.sum_range(massflow12, N), 'g')
 plt.plot(Reader.sum_range(massflow13, N), 'r')
 plt.plot(Reader.sum_range(massflow14, N), 'c')
@@ -259,7 +265,6 @@ if swtch:
     plt.plot(index11 + cut, arrmf11[index11], 'r+')
     plt.plot(index12 + cut, arrmf12[index12], 'r+')
 
-"""
 
 if swtch:
     trialVec = arange(1, 7)
@@ -293,11 +298,10 @@ with plt.style.context('seaborn-whitegrid'):
     line1 = poly1d(polyfit(trialVec, TwoThousand, 1))
     plt.plot(trialVec, line1(trialVec))
 
-    """
+
     plt.plot(trialVec, Uncoated, 'o', label='Uncoated')
     line1 = poly1d(polyfit(trialVec, Uncoated, 1))
     plt.plot(trialVec, line1(trialVec))
-    """
 
     plt.xticks(trialVec)
     plt.ylabel('$\Delta$mg/s')
@@ -333,7 +337,7 @@ with plt.style.context('seaborn-whitegrid'):
     plt.ylabel('$\Delta$mg/s')
     plt.xlabel('Coating thickness')
     plt.legend()
-
+"""
 
 # final plot
 plt.show()
